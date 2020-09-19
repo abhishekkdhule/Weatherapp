@@ -1,0 +1,83 @@
+#search-box{
+    display:flex;
+    /* background-color: green; */
+    /* justify-content: stretch; */
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#bg-image{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    background-color:black;
+    background-image:url('sunny.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    filter:blur(5px);
+    width:100%;
+    height:100%;
+}
+#main{
+    position: relative;
+    padding:30px 15px;
+    margin:150px auto;
+    width:300px;
+    background-color: rgb(255, 251, 198);
+    opacity:0.9;
+    border-style: solid;
+    border-color:white;
+    border-radius:1.5em;
+
+}
+#content{
+    position: realtive;
+    z-index:1;
+}
+#weather-conditions{
+    margin-top: 30px;
+    /* background-color: red; */
+    display:flex;
+    justify-content:space-between;
+}
+#icon{
+    /* background-color: aqua; */
+    width:25%;
+    height: 100%;
+}
+img{
+    width:100%;
+}
+#text-content{
+    /* background-color: blue; */
+    width:65%;
+}
+input{
+    margin:0;
+    width:220px;
+    height:25px;
+    /* background-color: red; */
+}
+button{
+    color:white;
+    height: 30px;
+    width: auto;
+    margin: 0;
+    background-color: rgb(68, 70, 202);
+    outline:none;
+    border-width: 0.1px;
+}
+h1,h4{
+    margin:2px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    /* display: inline; */
+    /* background-color: green; */
+}
+p{
+    margin:2px;
+    font-size: 15px;
+}
